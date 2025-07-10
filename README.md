@@ -31,9 +31,9 @@ Projekt je podijeljen na dva dijela (Google i Whisper), svaki od njih ima pripad
 3. **Pokrenite `file_cleanup.py`**
    Ovaj kod 'čisti' tekstualne datoteke i pohranjuje ih u `veprad_transcripts/cleaned/`
 4. **Pokrenite `main.py`**
-   Prolazi kroz sve datoteke, evaluira model nad njima i pohranjuje rezultate 
+   Prolazi kroz sve datoteke, evaluira model nad njima i pohranjuje rezultate u `evaluation_results.csv`
 5. **Pokrenite `analysis.py`**
-   Ovaj kod radi statističku analizu i generira dijagrame na temelju rezultata
+   Ovaj kod radi statističku analizu i generira dijagrame na temelju rezultata te ih pohranjuje u `analysis_plots/`
    - DER po svim dijakritičkim znakovima
    - Boxplot dijagram za WER po spolu i govorniku
    - *Violin plot* za prikaz distribucije WER-a po spolu
