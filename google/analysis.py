@@ -7,8 +7,8 @@ from collections import Counter
 from tqdm import tqdm
 import jiwer 
 
-RESULTS_CSV = 'evaluation_results.csv'
-OUTPUT_DIR = 'analysis_plots/'
+RESULTS_CSV = 'google/evaluation_results.csv'
+OUTPUT_DIR = 'google/analysis_plots/'
 
 def perform_statistical_analysis(df):
     print("\n" + "="*50)

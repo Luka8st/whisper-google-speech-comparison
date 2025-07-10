@@ -16,13 +16,13 @@ def clean_for_wer(text: str) -> str:
     text = text.translate(str.maketrans("", "", string.punctuation))
     return text
 
-MALE_TXT_DIR   = r".\whisper\test\testtxtM\cleaned"
-MALE_WAV_DIR   = r".\whisper\test\testwavM"
-FEMALE_TXT_DIR = r".\whisper\test\testtxtF\cleaned"
-FEMALE_WAV_DIR = r".\whisper\test\testwavF"
+MALE_TXT_DIR   = r".\whisper\\test\\testtxtM\\cleaned"
+MALE_WAV_DIR   = r".\whisper\\test\\testwavM"
+FEMALE_TXT_DIR = r".\whisper\\test\\testtxtF\\cleaned"
+FEMALE_WAV_DIR = r".\whisper\\test\\testwavF"
 
-MODELS     = ["small", "large"]
-OUTPUT_DIR = r".\whisper\test\whisper_outputs"
+MODELS     = ["small", "medium", "large"]
+OUTPUT_DIR = r".\whisper\\test\whisper_outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def get_ids(txt_dir):
