@@ -1,7 +1,7 @@
 import os, glob, re
 
-INPUT_DIR  = r".\veprad_transcripts"    
-OUTPUT_DIR = r".\veprad_transcripts\cleaned"  
+INPUT_DIR  = r"google\\veprad_transcripts"    
+OUTPUT_DIR = r"google\\veprad_transcripts\\cleaned"  
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 char_map = {

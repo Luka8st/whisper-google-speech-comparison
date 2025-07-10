@@ -1,4 +1,8 @@
 google/evaluation_results.csv
 google/analysis_plots/
+google/veprad_transcripts/cleaned/
+
 whisper/test/whisper_outputs/
+whisper/test/testtxtF/cleaned/
+whisper/test/testtxtM/cleaned/
 comparison/
