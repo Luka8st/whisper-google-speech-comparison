@@ -33,7 +33,10 @@ Projekt je podijeljen na dva dijela (Google i Whisper), svaki od njih ima pripad
 4. **Pokrenite `main.py`**
    Prolazi kroz sve datoteke, evaluira model nad njima i pohranjuje rezultate 
 5. **Pokrenite `analysis.py`**
-   Ovaj kod radi statističku analizu i generira grafove na temelju rezultata
+   Ovaj kod radi statističku analizu i generira dijagrame na temelju rezultata
+   - DER po svim dijakritičkim znakovima
+   - Boxplot dijagram za WER po spolu i govorniku
+   - *Violin plot* za prikaz distribucije WER-a po spolu
 
 ### Whisper
 1. **Pokrenite `file_cleanup.py`**
@@ -41,4 +44,9 @@ Projekt je podijeljen na dva dijela (Google i Whisper), svaki od njih ima pripad
 2. **Pokrenite `main.py`**
    Ovaj kod evaluira Whisperove modele nad svim .wav i .txt datotekama i pohranjuje rezultate u `test/whisper_outputs/`
 3. **Pokrenite `analysis.py`**
-   Vrši statističku analizu, generira grafove i uspoređuje rezultate s Googleovim modelom 
+   Vrši statističku analizu, generira dijagrame i uspoređuje rezultate s Googleovim modelom
+   - Dijagrami za DER po svim dijakritičkim znakovima
+   - Grafovi se pohranjuju u `whisper_outputs/analysis_plots/`
+      - Boxplot dijagrami za usporedbu CER, DER i WER po spolu i modelu 
+   - Rezultati usporedbe pohranjuju se unutar *root* direktorija u `comparison/`
+      - Pohranjuju se *difference histogram* i *scatter plot* za CER, DER i WER 
