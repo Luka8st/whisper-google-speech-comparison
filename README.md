@@ -2,6 +2,8 @@
 
 ## Struktura projekta
 
+Projekt je podijeljen na dva dijela (Google i Whisper), svaki od njih ima pripadajući direktorij.
+
 ### Google 
 - `file_cleanup.py` - Čišćenje .txt datoteka
 - `main.py` - Iteriranje kroz .wav i .txt datoteke, pohrana rezultata
@@ -10,6 +12,11 @@
 - `veprad_transcripts/` - .txt datoteke
 
 ### Whisper
+- `file_cleanup.py` - Čišćenje .txt datoteka
+- `main.py` - Iteriranje kroz .wav i .txt datoteke, pohrana rezultata
+- `analysis.py` - Prikaz grafova i usporeedba s Googleovim modelom
+- `test/` - Sadrži sve .wav i .txt datoteke
+- `analysis_helpers/` - Pomoćne funkcije za statističku analizu
 
 ## Pokretanje koda
 
@@ -22,5 +29,16 @@
       $env:GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/keyfile.json"
    ```
 3. **Pokrenite `file_cleanup.py`**
-  Ovaj kod 'čisti' tekstualne datoteke i pohranjuje ih u `veprad_transcripts/cleaned/`
-4. 
+   Ovaj kod 'čisti' tekstualne datoteke i pohranjuje ih u `veprad_transcripts/cleaned/`
+4. **Pokrenite `main.py`**
+   Prolazi kroz sve datoteke, evaluira model nad njima i pohranjuje rezultate 
+5. **Pokrenite `analysis.py`**
+   Ovaj kod radi statističku analizu i generira grafove na temelju rezultata
+
+### Whisper
+1. **Pokrenite `file_cleanup.py`**
+   Ovaj kod 'čisti' tekstualne datoteke i pohranjuje očišćene datoteke
+2. **Pokrenite `main.py`**
+   Ovaj kod evaluira Whisperove modele nad svim .wav i .txt datotekama i pohranjuje rezultate u `test/whisper_outputs/`
+3. **Pokrenite `analysis.py`**
+   Vrši statističku analizu, generira grafove i uspoređuje rezultate s Googleovim modelom 
