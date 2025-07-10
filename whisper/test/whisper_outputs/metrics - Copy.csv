@@ -1,0 +1,19 @@
+model,gender,file_id,wer,cer,der,ref,hyp
+small,m,m01020105401,0.5555555555555556,0.11764705882352941,0.5,biometeoroloŠka prognoza za sutra  uvjeti Će biti razmjerno povoljni,Biometo rološka prognoza za sutra. Uvijete i će biti razmeno povoljni.
+small,m,m01020105402,0.36363636363636365,0.06756756756756757,1.0,manje tegobe mogu osjeĆati samo vrlo osjetljivi ljudi i kroniČni bolesnici,Manjete gobe mogu osićati samo vrlo osjetljivi ljudi i kronični bolestnici.
+small,m,m01020205101,0.4166666666666667,0.054945054945054944,1.0,vremenska prognoza za poslijepodne na jadranu preteŽito a u unutraŠnjosti djelomice sunČano,"Vremenska prognoza zaposlije podne, na jadrenu preteržito a u unutrašnjosti dijelomice sunčano."
+small,m,m01020205102,0.2,0.03225806451612903,0.6666666666666666,potkraj dana sve oblaČnije a u unutraŠnjosti moguĆ slab snijeg,"Potkraj dana sve oblačnije, a u unutrašnjoj sti moguć slab snijeg."
+small,m,m01020205103,0.42857142857142855,0.10416666666666667,,vjetar slab do umjeren sjeverni i sjeverozapadni,vjetar slab do umiran sjeverni i sjeveru zapadni.
+small,m,m01020205104,0.2727272727272727,0.06557377049180328,,na sjevernom jadranu slaba i umjerena u dalmaciji i jaka bura,na sjevernom jadranu slaba i umjeljna u Dalmaciji i Akabura.
+small,m,m01020205105,0.4166666666666667,0.35135135135135137,0.5,temperatura izmeĐu jedan i Šest na jadranu od sedam do jedanaest stupnjeva,"Temperatura između 1,6 na jadranu od 7 do 11 stupnjeva."
+small,m,m01020205201,0.5,0.09090909090909091,1.0,biometeoroloŠka prognoza za sutra,Biometeoroološka prognoza za sutrem.
+small,m,m01020205202,0.5,0.12307692307692308,1.0,utjecaj vremena u veĆem dijelu zemlje bit Će razmjerno nepovoljan,Utjece vremena u većem dijelu zemlje biće razminno nepovoljen.
+large,m,m01020105401,0.0,0.014705882352941176,0.0,biometeoroloŠka prognoza za sutra  uvjeti Će biti razmjerno povoljni,Biometeorološka prognoza za sutra. Uvjeti će biti razmjerno povoljni.
+large,m,m01020105402,0.0,0.0,0.0,manje tegobe mogu osjeĆati samo vrlo osjetljivi ljudi i kroniČni bolesnici,Manje tegobe mogu osjećati samo vrlo osjetljivi ljudi i kronični bolesnici.
+large,m,m01020205101,0.25,0.04395604395604396,1.0,vremenska prognoza za poslijepodne na jadranu preteŽito a u unutraŠnjosti djelomice sunČano,"Vremenska prognoza za poslje poodne. Na Jadranu pretežito, a u unutrašnjosti dijelomice sunčano."
+large,m,m01020205102,0.2,0.03225806451612903,1.0,potkraj dana sve oblaČnije a u unutraŠnjosti moguĆ slab snijeg,"Pod kraj dana sve oblačnije, a u unutrašnjosti moguć slab snijeg."
+large,m,m01020205103,0.0,0.0,,vjetar slab do umjeren sjeverni i sjeverozapadni,"Vjetar slab do umjeren, sjeverni i sjeverozapadni."
+large,m,m01020205104,0.09090909090909091,0.01639344262295082,,na sjevernom jadranu slaba i umjerena u dalmaciji i jaka bura,"Na sjevernom Jadranu slaba i umjerna, u Dalmaciji i jaka bura."
+large,m,m01020205105,0.3333333333333333,0.3108108108108108,0.5,temperatura izmeĐu jedan i Šest na jadranu od sedam do jedanaest stupnjeva,Temperatura između 1 i 6 na Jadranu od 7 do 11 stupnjeva.
+large,m,m01020205201,0.0,0.0,0.0,biometeoroloŠka prognoza za sutra,Biometeorološka prognoza za sutra.
+large,m,m01020205202,0.1,0.046153846153846156,0.0,utjecaj vremena u veĆem dijelu zemlje bit Će razmjerno nepovoljan,Utjecaj vremena u većem dijelu zemlje bit će razminno nepovoljan.
