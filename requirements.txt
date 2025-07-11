@@ -1,0 +1,9 @@
+google-cloud-speech
+jiwer
+matplotlib
+numpy
+pandas
+scipy
+seaborn
+tqdm
+whisper

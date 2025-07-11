@@ -20,6 +20,11 @@ Projekt je podijeljen na dva dijela (Google i Whisper), svaki od njih ima pripad
 
 ## Pokretanje koda
 
+- Za početak, instalirajte sve potrebne biblioteke:
+```sh
+   pip install -r requirements.txt
+```
+
 ### Google
 1. **Kreirajte i preuzmite API ključ**
    Na stranici [Google cloud console](https://console.cloud.google.com/) kreirajte API ključ za speech-to-text API i preuzmite ga u JSON formatu
