@@ -6,4 +6,4 @@ pandas
 scipy
 seaborn
 tqdm
-whisper
+openai-whisper
